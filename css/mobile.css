@@ -1,55 +1,47 @@
 body {
   margin: 0 0;
 }
-html {
-  margin: 0 0;
-}
 
-
-.container1 {
-  height: 90vh;
-  width: 60vh;
-  background-image: url("../images/breepink.jpg");
-  background-size: cover;
+.container {
+  background-image: url('../images/breepink.jpg');
 background-repeat: no-repeat;
-  padding-left: 2em;
-  padding-right: 2em;
+background-size: cover;
+width: 100%;
+height: 100%;
+min-width: 550px;
+min-height: 100vh;
+align-items: center;
+margin: 0 0;
+
 }
+
 
 h1 {
   color: black;
-  font-family: 'Sacramento';
-  letter-spacing: 1px;
-  font-size: 2.5em;
+font-family: 'Bree Serif', serif;
+ letter-spacing: 1px;
+  font-size: 3.5em;
   padding-top: 1.5em;
-  margin: 2px 2px;
+  margin-left: 1.5em;
 }
 
 p {
   font-family: 'Voltaire';
-font-size: 1.4em;
+font-size: 1.54em;
 color: black;
-padding: 4px 2px;
+margin-left: 1.5em;
+padding: 2px;
 line-height: 1.5em;
 
 }
 
-h3 {
-  font-family: 'Sacramento';
-  color: black;
-  font-size: 2.5em;
-  margin: 2px 2px;
-  float: right;
-}
-
-
 
 .container2 {
   height: 90vh;
-  width: 60vh;
-  background-image: url("../images/breeinhollywood.jpg");
+  width: 60%;
+  background-image: url("../images/babybree.jpg");
   background-size: cover;
-  padding: 5em 2em;
+  margin-top: 2em;
   text-align: right;
 }
 
