@@ -1,0 +1,165 @@
+body {
+  margin: 0 0;
+}
+html {
+  margin: 0 0;
+}
+
+
+.container1 {
+  height: 90vh;
+  width: 60vh;
+  background-image: url("../images/breepink.jpg");
+  background-size: cover;
+background-repeat: no-repeat;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+h1 {
+  color: black;
+  font-family: 'Sacramento';
+  letter-spacing: 1px;
+  font-size: 2.5em;
+  padding-top: 1.5em;
+  margin: 2px 2px;
+}
+
+p {
+  font-family: 'Voltaire';
+font-size: 1.4em;
+color: black;
+padding: 4px 2px;
+line-height: 1.5em;
+
+}
+
+h3 {
+  font-family: 'Sacramento';
+  color: black;
+  font-size: 2.5em;
+  margin: 2px 2px;
+  float: right;
+}
+
+
+
+.container2 {
+  height: 90vh;
+  width: 60vh;
+  background-image: url("../images/breeinhollywood.jpg");
+  background-size: cover;
+  padding: 5em 2em;
+  text-align: right;
+}
+
+
+h4 {
+font-family: 'Voltaire';
+font-size: 2em;
+color: white;
+text-align: center;
+
+}
+
+.container3 {
+  height: 70vh;
+  width: 60vh;
+  background-image: url("../images/theoffice.jpg");
+  background-size: cover;
+  padding: 5em 2em;
+  text-align: right;
+}
+
+
+.container4 {
+  height: 70vh;
+  width: 30vh;
+  background-image: url("../images/horses.jpg");
+  background-size: cover;
+  padding: 5em 6em;
+  text-align: right;
+}
+
+
+
+div.item i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  font-size: 1em;
+  color: #000000;
+  width: 40%;
+  height: 40%;
+  line-height: 1em;
+  background: #ffffff;
+
+}
+
+div.item a {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+}
+
+div.item.blue {
+  background-color: #ef308c;
+  width: 3em;
+}
+
+div.item.blue i {
+  color: #34495e;
+
+}
+
+div.item.red {
+  background-color: black;
+  width: 2em;
+
+}
+div.item.4 {
+  background-color: black;
+  width: 1em;
+}
+
+div.item.red i {
+  color: white;
+
+}
+
+div.item.green {
+  background-color: black;
+  width: 20%;
+}
+div.item.green i {
+  color: #16a085;
+}
+
+div.item:hover img {
+  opacity: 0.3;
+  filter: grayscale(100%);
+}
+
+div.item * {
+  transition: all .35s ease-in-out;
+}
+
+
+div.item i {
+  transform: translate(-50%, -50%) scale(0);
+  transition: transform 300ms 0ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
+
+div.item:hover i {
+  transform: translate(-50%, -50%) scale(1);
+  transition: transform 300ms 100ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.footer .p{
+  position: sticky;
+  height: 10px;
+  padding-left: 20px;
+}
